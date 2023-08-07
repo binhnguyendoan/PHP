@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <form action="" method="post">
+    <form action="" method="post" autocomplete="off">
         <label for="n">Nhập giá trị n:</label>
         <input type="number" id="n" name="n" required>
         <input type="submit" value="Tạo mảng">
