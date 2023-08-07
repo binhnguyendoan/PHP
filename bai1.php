@@ -1,6 +1,6 @@
 <?php
 function createArray($n) {
-    $arr = array(); // Khởi tạo mảng rỗng
+    $arr = array();
     $a = array();
 
     for ($i = 0; $i < $n; $i++) {
@@ -23,7 +23,6 @@ $result = array();
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['n'])) {
         $n = intval($_POST['n']);
-
         $result = createArray($n);
     }
 }
